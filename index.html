@@ -55,5 +55,17 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
   </body>
-  <script></script>
+  <script>
+    function removeTransition(e) {
+      console.log(e.keyCode);
+    }
+    function playSound(e) {
+      console.log(e.keyCode);
+    }
+    const keys = Array.from(document.querySelectorAll(".key"));
+    keys.forEach((key) =>
+      key.addEventListener("transitioneed", removeTransition)
+    );
+    window.addEventListener("keydown", playSound);
+  </script>
 </html>
