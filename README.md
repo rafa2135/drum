@@ -1,8 +1,8 @@
 # drum
-Drum Kit
+<h1>Drum Kit</h1>
 This is a simple drum kit web application that allows you to play various drum sounds by pressing keys on your keyboard.
 
-Files
+<h2>Files</h2>
 This repository contains the following files:
 
 index.html: The main HTML file for the drum kit web application.
